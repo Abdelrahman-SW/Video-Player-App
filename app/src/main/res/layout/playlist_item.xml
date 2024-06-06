@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:layout_marginBottom="8dp"
+    android:layout_marginTop="8dp"
+    >
+
+
+
+    <ImageView
+        android:id="@+id/playlist_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_playlist__3_"
+        android:layout_centerVertical="true"
+        />
+
+
+
+    <LinearLayout
+        android:layout_marginStart="32dp"
+        android:layout_toEndOf="@id/playlist_img"
+        android:id="@+id/playlistDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <TextView
+            android:id="@+id/playlist_Name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/basic"
+            android:lines="1"
+            android:textColor="?attr/firstColor"
+            android:textSize="15sp"
+            tools:text="Helllllllllo" />
+
+        <TextView
+            android:id="@+id/playlist_summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="ggggggggggg"
+            android:textSize="14sp"
+            android:textColor="?attr/secondColor"
+            android:lines="1"
+            />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/playlist_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@drawable/ic_baseline_more_vert_24"
+        android:layout_centerVertical="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+    />
+
+</RelativeLayout>

@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name" translatable="false">Lite Player</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="hello_first_fragment" translatable="false">Hello first fragment</string>
+    <string name="hello_second_fragment" translatable="false">Hello second fragment. Arg: %1$s</string>
+    <string name="language_key" translatable="false">language</string>
+    <string name="UK" translatable="false">English(UK)</string>
+    <string name="EN" translatable="false">en</string>
+    <string name="AR" translatable="false">ar</string>
+    <string name="arabic" translatable="false">Arabic/العربية</string>
+    <string name="english" translatable="false">English</string>
+    <string name="soundKey" translatable="false">sound_key</string>
+    <string name="ApperanceKey" translatable="false">Apperance_Key</string>
+    <string name="privacyPolicyKey" translatable="false">privacyPolicy_Key</string>
+    <string name="termsOfUseKey" translatable="false">termsOfUse_Key</string>
+    <string name="RemoveAdKey" translatable="false">RemoveAd_Key</string>
+    <string name="feedback" translatable="false">feedback_key</string>
+    <string name="MoreApps" translatable="false">more_apps_key</string>
+    <string name="rate_key" translatable="false">rateKey</string>
+    <string name="privacyPolicy">Privacy policy</string>
+    <string name="termsOfUse">Terms of use</string>
+    <string name="title_activity_add_playlist_items" translatable="false">AddPlaylistItemsActivity</string>
+    <string name="mediaTxt" translatable="false">%s</string>
+    <string name="share_key" translatable="false">shareKey</string>
+    <string name="select_all_menu">select All</string>
+    <string name="search_menu">Search</string>
+    <string name="done_menu">done</string>
+    <string name="law_settings">Privacy protection act</string>
+    <string name="privacy_settings">privacy policy</string>
+    <string name="terms_settings">terms of use</string>
+    <string name="file_removed_succes">The file has been removed successfully</string>
+    <string name="search_hint">Search</string>
+    <string name="delete_f">All playlists will be deleted</string>
+    <string name="error_permission_denied">permission rejected</string>
+    <string name="playlist_name">playlist :  %s</string>
+    <string name="tab_text_1">Videos</string>
+    <string name="tab_text_2">music</string>
+    <string name="toolbarTxt">add files %d</string>
+    <string name="video_playlist_toolbar_header">videos list</string>
+    <string name="add_new_playlist">Add a new playlist</string>
+    <string name="current_playlist">Current playlists:</string>
+    <string name="playlist_header">Playlist</string>
+    <string name="add">Add</string>
+    <string name="add_files">Add files</string>
+    <string name="settings_header">Settings</string>
+    <string name="enter_playlist_header">" Enter the name of your playlist"</string>
+    <string name="playlist_hint_header">Playlist name</string>
+    <string name="enter_header">Enter here</string>
+    <string name="open_url_header">open url</string>
+    <string name="rename_header">rename</string>
+    <string name="remove_header">delete</string>
+    <string name="play">play</string>
+    <string name="add_to_favourite">Add to favourites</string>
+    <string name="share_header">Share</string>
+    <string name="delete_menu">delete playlists</string>
+    <string name="grid_list_menu">change display</string>
+    <string name="refresh_menu">refresh</string>
+    <string name="remove_ads_menu">remove ads</string>
+    <string name="language_settings">app language</string>
+    <string name="remove_Ads_summary">Remove ads from the app now</string>
+    <string name="sound_settings">sound enhancement</string>
+    <string name="apperance_settings">App Appearance</string>
+    <string name="apperance_summary">Edit App Appearance .. Choose your favorite theme</string>
+    <string name="about_settings">About</string>
+    <string name="rate_settings">Rate app</string>
+    <string name="share_settings">Share app</string>
+    <string name="mail_settings">Contact us</string>
+    <string name="mail_summary">Submit your opinions about the app</string>
+    <string name="website_settings">Go to our website</string>
+    <string name="playlist_summary">videos %d , musics %d</string>
+    <string name="enter_file">enter file name</string>
+    <string name="edit_file">edit file</string>
+    <string name="file_edit_succes">The file has been modified successfully</string>
+    <string name="create_playlist">create playlist</string>
+    <string name="edit_playlist">edit playlist</string>
+    <string name="erorr_name">please enter a valid name</string>
+    <string name="delete_ask">Are you sure you want to delete the playlist?</string>
+    <string name="yes">yes</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_all_ask">Are you sure you want to delete all  playlists?</string>
+    <string name="ok">OK</string>
+    <string name="no_playlist_found">You have no playlists</string>
+    <string name="required">required</string>
+    <string name="download">download app here</string>
+    <string name="videos_title">Video folders</string>
+    <string name="music">musics</string>
+    <string name="playlist">playlists</string>
+    <string name="give_permission">" Please give permission first "</string>
+    <string name="videos">Videos</string>
+    <string name="remove_from_favourite">remove from favourite playlist</string>
+    <string name="removed_succes">The file has been removed from the favourite playlist successfully</string>
+    <string name="added_succes">The file has been added to the favourite playlist successfully</string>
+    <string name="actions">Actions</string>
+    <string name="auto">Auto (device language)</string>
+    <string name="default_language" translatable="false">default</string>
+    <string name="Favourite_playlist">Favourite list</string>
+    <string name="colorPicker">Choose your favourite color theme</string>
+    <string name="default_btn">default</string>
+    <string name="THEME_KEY" translatable="false">myTheme</string>
+    <string name="CURRENT_COLOR_KEY" translatable="false">currentColor</string>
+    <string name="erorr">some error happen please wait …</string>
+    <string name="erorr_ad">There is an error please try again</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="already_owned">You already Remove The Ads from your app</string>
+
+    <!-- subscription to remove ads-->
+    <string name="remove_ads_Monthly_product_id" translatable="false">remove_ads_monthly</string>
+    <string name="remove_ads_yearly_product_id" translatable="false">remove_ads_yearly</string>
+
+
+    <string name="subscribe_now">subscribe Now !</string>
+    <string name="to_remove_ads_from_the_app">to remove ads from the app</string>
+    <string name="monthly_subscribe">Monthly subscribe</string>
+    <string name="yearly_subscribe">Yearly subscribe</string>
+    <string name="my_notification_channel_id" translatable="false">channel</string>
+    <string name="congra">Congratulations !</string>
+    <string name="adsRemoved">You have been subscribed successfully</string>
+    <string name="changeSound">Volume</string>
+    <string name="changeDone">Change has been applied successfully</string>
+    <string name="thanks_msg">شكرا لك! تم الابلاغ عن الحلقة سيتم حل المشكلة قريبا! يمكنك مشاهدة باقي الحلقات حتي يتم حل المشكلة</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="ad_tag_url" translatable="false"><![CDATA[https://pubads.g.doubleclick.net/gampad/ads?iu=/21775744923/external/single_ad_samples&sz=640x480&cust_params=sample_ct%3Dlinear&ciu_szs=300x250%2C728x90&gdfp_req=1&output=vast&unviewed_position_start=1&env=vp&impl=s&correlator=]]></string>
+    <string name="ima_id" />
+    <string name="InterstitialBeforeKey" translatable="false">InterstitialBefore</string>
+    <string name="bannerKey" translatable="false">banner</string>
+    <string name="InterstitialAfterKey" translatable="false">InterstitialAfterKey</string>
+    <string name="ima_id_key">ima_id_ad</string>
+
+
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activity.settings.SettingsActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:elevation="8dp"
+            android:background="?attr/toolbarColor"
+            app:popupTheme="@style/ToolbarPopupTheme">
+
+            <TextView
+                android:id="@+id/toolbar_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="19sp"
+                android:textColor="?attr/colorOnToolbar"
+                android:layout_marginStart="16dp"
+                android:text="@string/settings_header" />
+        </androidx.appcompat.widget.Toolbar>
+
+        <fragment
+            android:id="@+id/myFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:name="com.loptr.kherod.uygdl.activity.settings.SettingsFragment"
+            tools:ignore="FragmentTagUsage" />
+
+
+    </LinearLayout>
+</layout>

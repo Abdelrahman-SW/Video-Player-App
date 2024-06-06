@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="editTextStyle" parent="Theme.LitePlayer">
+        <item name="android:editTextColor" >@color/black</item>
+        <item name="android:textColorSecondary" >@color/black</item>
+    </style>
+
+    <declare-styleable name="MyCustomAttributes">
+        <attr name="IconsColor" format="color"/>
+        <attr name="firstColor" format="color"/>
+        <attr name="secondColor" format="color"/>
+        <attr name="toolbarColor" format="color"/>
+        <attr name="colorOnToolbar" format="color"/>
+        <attr name="backgroundBottomColor" format="color"/>
+        <attr name="bottomCircleColor" format="color"/>
+        <attr name="bottomIconColor" format="color"/>
+        <attr name="bottomSelectedIconColor" format="color"/>
+        <attr name="bottomRippleColor" format="color"/>
+        <attr name="bottomSheetBackgroundColor" format="color"/>
+        <attr name="bottomSheetTextColor" format="color"/>
+        <attr name="bottomSheetTextHeaderColor" format="color"/>
+        <attr name="bottomSheetIconsColor" format="color"/>
+        <attr name="toolbarIconsColor" format="color"/>
+        <attr name="AddPlaylistIconColor" format="color"/>
+        <attr name="folderColor" format="color"/>
+        <attr name="menuIconsColor" format="color"/>
+        <attr name="myToolbarStyle" format="integer"/>
+    </declare-styleable>
+</resources>

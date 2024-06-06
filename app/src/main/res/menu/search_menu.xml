@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item android:icon="@drawable/ic_baseline_select_all_24"
+        android:id="@+id/selectAll"
+        android:title="@string/select_all_menu"
+        app:showAsAction="always|collapseActionView"
+        tools:ignore="AlwaysShowAction" />
+
+
+    <item android:icon="@drawable/ic_baseline_search_24"
+        android:id="@+id/search"
+        android:title="@string/search_menu"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"
+        app:showAsAction="always|collapseActionView" />
+
+    <item android:icon="@drawable/ic_check"
+        android:id="@+id/done"
+        android:title="@string/done_menu"
+        app:showAsAction="always|collapseActionView" />
+</menu>

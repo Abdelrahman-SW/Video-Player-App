@@ -1,0 +1,459 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LitePlayer" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryVariant">#272727</item>
+<!--        <item name="colorAccent">@color/black</item>-->
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/lightBlue</item>
+        <item name="colorSecondaryVariant">#028E9F</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:textColorSecondary">@color/gray</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+        <item name="android:editTextColor">#808080</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <!-- the app depends on this colors override them in different themes -->
+        <item name="android:windowBackground">@color/white</item>
+        <item name="IconsColor">@color/lightBlue</item>
+        <item name="firstColor">@color/black</item>
+        <item name="secondColor">@color/gray</item>
+        <item name="toolbarColor">@color/black</item>
+        <item name="colorOnToolbar">@color/white</item>
+        <item name="backgroundBottomColor">@color/white</item>
+        <item name="bottomCircleColor">@color/black</item>
+        <item name="bottomIconColor">@color/lightBlue</item>
+        <item name="bottomSelectedIconColor">@color/white</item>
+        <item name="bottomSheetBackgroundColor">@color/white</item>
+        <item name="bottomRippleColor">@color/gray</item>
+        <item name="toolbarIconsColor">@color/lightBlue</item>
+        <item name="AddPlaylistIconColor">@color/lightBlue</item>
+        <item name="bottomSheetTextHeaderColor">@color/gray</item>
+        <item name="bottomSheetTextColor">@color/black</item>
+        <item name="bottomSheetIconsColor">@color/lightBlue</item>
+        <item name="folderColor">#E4E4E4</item>
+        <item name="menuIconsColor">@color/lightBlue</item>
+    </style>
+
+
+    <style name="ThemeSettings" parent="Theme.LitePlayer">
+        <item name="android:editTextColor">#000000</item>
+        <item name="android:textColorHint">@color/black</item>
+        <item name="android:textColorSecondary">#636363</item>
+    </style>
+
+
+    <style name="ToolbarPopupTheme" parent="Theme.AppCompat.Light">
+        <!-- set background color -->
+        <!--        <item name="android:paddingRight">4dp</item>-->
+        <item name="android:paddingEnd">6dp</item>
+        <item name="android:paddingStart">6dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:width">160dp</item>
+
+        <!-- set text color -->
+    </style>
+
+    <style name="Theme.LitePlayer.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.LitePlayer.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.LitePlayer.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="bottomSheetDialogTheme" parent="Theme.MaterialComponents.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottomSheetStyle</item>
+
+    </style>
+
+    <style name="bottomSheetStyle">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:editTextColor">@color/black</item>
+    </style>
+
+    <style name="toolbarStyle" parent="Theme.LitePlayer">
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="popupTheme">@style/ToolbarPopupTheme</item>
+    </style>
+
+    <!--app themes-->
+
+    <style name="black_theme" parent="Theme.LitePlayer">
+        <item name="android:windowBackground">@color/black_background</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+        <item name="IconsColor">@color/white</item>
+        <item name="toolbarColor">@color/black</item>
+        <item name="backgroundBottomColor">@color/white</item>
+        <item name="bottomCircleColor">@color/white</item>
+        <item name="bottomIconColor">@color/black</item>
+        <item name="bottomSelectedIconColor">@color/black</item>
+        <item name="bottomSheetBackgroundColor">@color/gray</item>
+        <item name="bottomRippleColor">@color/gray</item>
+        <item name="android:textColorSecondary">#636363</item>
+        <item name="toolbarIconsColor">@color/white</item>
+        <item name="firstColor">@color/white</item>
+        <item name="AddPlaylistIconColor">@color/gray</item>
+        <item name="bottomSheetTextHeaderColor">@color/black</item>
+        <item name="bottomSheetTextColor">@color/black</item>
+        <item name="bottomSheetIconsColor">@color/black</item>
+        <item name="folderColor">@color/lightBlue</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="menuIconsColor">@color/black</item>
+        <item name="myToolbarStyle">@style/toolbarStyle</item>
+    </style>
+
+
+    <style name="theme_red_dark" parent="Theme.LitePlayer">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/theme_red_dark</item>
+        <item name="IconsColor">@color/theme_red_dark</item>
+        <item name="toolbarColor">@color/theme_red_dark</item>
+        <item name="backgroundBottomColor">@color/white</item>
+        <item name="bottomCircleColor">@color/white</item>
+        <item name="bottomIconColor">@color/theme_red_dark</item>
+        <item name="bottomSelectedIconColor">@color/theme_red_dark</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_red_dark_background</item>
+        <item name="bottomRippleColor">@color/white</item>
+        <item name="android:textColorSecondary">#636363</item>
+        <item name="android:windowBackground">@color/theme_red_dark_background</item>
+        <item name="toolbarIconsColor">@color/theme_red_dark_background</item>
+        <item name="firstColor">@color/black</item>
+        <item name="AddPlaylistIconColor">@color/theme_red_dark</item>
+        <item name="bottomSheetTextHeaderColor">@color/black</item>
+        <item name="bottomSheetTextColor">@color/theme_red_dark</item>
+        <item name="bottomSheetIconsColor">@color/theme_red_dark</item>
+        <item name="folderColor">#FFEDED</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="menuIconsColor">@color/theme_red_dark</item>
+        <item name="myToolbarStyle">@style/MyToolbarStyle</item>
+    </style>
+
+
+    <style name="theme_red" parent="Theme.LitePlayer">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/theme_red</item>
+        <item name="IconsColor">@color/theme_red</item>
+        <item name="toolbarColor">@color/theme_red</item>
+        <item name="backgroundBottomColor">@color/white</item>
+        <item name="bottomCircleColor">@color/white</item>
+        <item name="bottomIconColor">@color/theme_red</item>
+        <item name="bottomSelectedIconColor">@color/theme_red</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_red_background</item>
+        <item name="bottomRippleColor">@color/white</item>
+        <item name="android:textColorSecondary">#636363</item>
+        <item name="android:windowBackground">@color/theme_red_background</item>
+        <item name="toolbarIconsColor">@color/theme_red_dark_background</item>
+        <item name="firstColor">@color/black</item>
+        <item name="AddPlaylistIconColor">@color/theme_red</item>
+        <item name="bottomSheetTextHeaderColor">@color/black</item>
+        <item name="bottomSheetTextColor">@color/theme_red</item>
+        <item name="bottomSheetIconsColor">@color/theme_red</item>
+        <item name="folderColor">#FFEDED</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="menuIconsColor">@color/theme_red</item>
+        <item name="myToolbarStyle">@style/MyToolbarStyle</item>
+    </style>
+
+
+    <style name="theme_Pink" parent="Theme.LitePlayer">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/theme_Pink</item>
+        <item name="IconsColor">@color/theme_Pink</item>
+        <item name="toolbarColor">@color/theme_Pink</item>
+        <item name="backgroundBottomColor">@color/white</item>
+        <item name="bottomCircleColor">@color/white</item>
+        <item name="bottomIconColor">@color/theme_Pink</item>
+        <item name="bottomSelectedIconColor">@color/theme_Pink</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_Pink_background</item>
+        <item name="bottomRippleColor">@color/white</item>
+        <item name="android:textColorSecondary">#636363</item>
+        <item name="android:windowBackground">@color/theme_Pink_background</item>
+        <item name="toolbarIconsColor">@color/theme_red_dark_background</item>
+        <item name="firstColor">@color/black</item>
+        <item name="AddPlaylistIconColor">@color/theme_Pink</item>
+        <item name="bottomSheetTextHeaderColor">@color/black</item>
+        <item name="bottomSheetTextColor">@color/theme_Pink</item>
+        <item name="bottomSheetIconsColor">@color/theme_Pink</item>
+        <item name="folderColor">#FFEDED</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="menuIconsColor">@color/theme_Pink</item>
+        <item name="myToolbarStyle">@style/MyToolbarStyle</item>
+    </style>
+
+
+    <style name="theme_purple_200" parent="Theme.LitePlayer">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/theme_purple_200</item>
+        <item name="IconsColor">@color/theme_purple_200</item>
+        <item name="toolbarColor">@color/theme_purple_200</item>
+        <item name="backgroundBottomColor">@color/white</item>
+        <item name="bottomCircleColor">@color/white</item>
+        <item name="bottomIconColor">@color/theme_purple_200</item>
+        <item name="bottomSelectedIconColor">@color/theme_purple_200</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_purple_200_background</item>
+        <item name="bottomRippleColor">@color/white</item>
+        <item name="android:textColorSecondary">#636363</item>
+        <item name="android:windowBackground">@color/theme_purple_200_background</item>
+        <item name="toolbarIconsColor">@color/theme_red_dark_background</item>
+        <item name="firstColor">@color/black</item>
+        <item name="AddPlaylistIconColor">@color/theme_purple_200</item>
+        <item name="bottomSheetTextHeaderColor">@color/black</item>
+        <item name="bottomSheetTextColor">@color/theme_purple_200</item>
+        <item name="bottomSheetIconsColor">@color/theme_purple_200</item>
+        <item name="folderColor">#FFEDED</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="menuIconsColor">@color/theme_purple_200</item>
+        <item name="myToolbarStyle">@style/MyToolbarStyle</item>
+    </style>
+
+
+    <style name="theme_Purple" parent="Theme.LitePlayer">
+        <item name="menuIconsColor">@color/theme_Purple</item>
+        <item name="android:statusBarColor" tools:targetApi="l">@color/theme_Purple</item>
+        <item name="IconsColor">@color/theme_Purple</item>
+        <item name="toolbarColor">@color/theme_Purple</item>
+        <item name="backgroundBottomColor">@color/white</item>
+        <item name="bottomCircleColor">@color/white</item>
+        <item name="bottomIconColor">@color/theme_Purple</item>
+        <item name="bottomSelectedIconColor">@color/theme_Purple</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_Purple_background</item>
+        <item name="bottomRippleColor">@color/white</item>
+        <item name="android:textColorSecondary">#636363</item>
+        <item name="android:windowBackground">@color/theme_Purple_background</item>
+        <item name="toolbarIconsColor">@color/theme_red_dark_background</item>
+        <item name="firstColor">@color/black</item>
+        <item name="AddPlaylistIconColor">@color/theme_Purple</item>
+        <item name="bottomSheetTextHeaderColor">@color/black</item>
+        <item name="bottomSheetTextColor">@color/theme_Purple</item>
+        <item name="bottomSheetIconsColor">@color/theme_Purple</item>
+        <item name="folderColor">#FFEDED</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="myToolbarStyle">@style/MyToolbarStyle</item>
+    </style>
+
+    <style name="theme_Deep_Purple" parent="Theme.LitePlayer">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/theme_Deep_Purple</item>
+        <item name="IconsColor">@color/theme_Deep_Purple</item>
+        <item name="toolbarColor">@color/theme_Deep_Purple</item>
+        <item name="backgroundBottomColor">@color/white</item>
+        <item name="bottomCircleColor">@color/white</item>
+        <item name="bottomIconColor">@color/theme_Deep_Purple</item>
+        <item name="bottomSelectedIconColor">@color/theme_Deep_Purple</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_Deep_Purple_background</item>
+        <item name="bottomRippleColor">@color/white</item>
+        <item name="android:textColorSecondary">#636363</item>
+        <item name="android:windowBackground">@color/theme_Deep_Purple_background</item>
+        <item name="toolbarIconsColor">@color/theme_red_dark_background</item>
+        <item name="firstColor">@color/black</item>
+        <item name="AddPlaylistIconColor">@color/theme_Deep_Purple</item>
+        <item name="bottomSheetTextHeaderColor">@color/black</item>
+        <item name="bottomSheetTextColor">@color/theme_Deep_Purple</item>
+        <item name="bottomSheetIconsColor">@color/theme_Deep_Purple</item>
+        <item name="folderColor">#FFEDED</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="menuIconsColor">@color/theme_Deep_Purple</item>
+        <item name="myToolbarStyle">@style/MyToolbarStyle</item>
+    </style>
+
+
+    <style name="theme_Teal" parent="Theme.LitePlayer">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/theme_Teal</item>
+        <item name="IconsColor">@color/theme_Teal</item>
+        <item name="toolbarColor">@color/theme_Teal</item>
+        <item name="backgroundBottomColor">@color/white</item>
+        <item name="bottomCircleColor">@color/white</item>
+        <item name="bottomIconColor">@color/theme_Teal</item>
+        <item name="bottomSelectedIconColor">@color/theme_Teal</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_Teal_background</item>
+        <item name="bottomRippleColor">@color/white</item>
+        <item name="android:textColorSecondary">#636363</item>
+        <item name="android:windowBackground">@color/theme_Teal_background</item>
+        <item name="toolbarIconsColor">@color/black</item>
+        <item name="firstColor">@color/black</item>
+        <item name="AddPlaylistIconColor">@color/theme_Teal</item>
+        <item name="bottomSheetTextHeaderColor">@color/black</item>
+        <item name="bottomSheetTextColor">@color/theme_Teal</item>
+        <item name="bottomSheetIconsColor">@color/theme_Teal</item>
+        <item name="folderColor">#FFEDED</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="menuIconsColor">@color/theme_Teal</item>
+        <item name="myToolbarStyle">@style/MyToolbarStyle</item>
+    </style>
+
+
+    <style name="theme_green" parent="Theme.LitePlayer">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/theme_green</item>
+        <item name="IconsColor">@color/theme_green</item>
+        <item name="toolbarColor">@color/theme_green</item>
+        <item name="backgroundBottomColor">@color/white</item>
+        <item name="bottomCircleColor">@color/white</item>
+        <item name="bottomIconColor">@color/theme_green</item>
+        <item name="bottomSelectedIconColor">@color/theme_green</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_green_background</item>
+        <item name="bottomRippleColor">@color/white</item>
+        <item name="android:textColorSecondary">#636363</item>
+        <item name="android:windowBackground">@color/theme_green_background</item>
+        <item name="toolbarIconsColor">@color/black</item>
+        <item name="firstColor">@color/black</item>
+        <item name="AddPlaylistIconColor">@color/theme_green</item>
+        <item name="bottomSheetTextHeaderColor">@color/black</item>
+        <item name="bottomSheetTextColor">@color/theme_green</item>
+        <item name="bottomSheetIconsColor">@color/theme_green</item>
+        <item name="folderColor">#FFEDED</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="menuIconsColor">@color/theme_green</item>
+        <item name="myToolbarStyle">@style/MyToolbarStyle</item>
+    </style>
+
+
+    <style name="theme_light_green" parent="Theme.LitePlayer">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/theme_light_green</item>
+        <item name="IconsColor">@color/theme_light_green</item>
+        <item name="toolbarColor">@color/theme_light_green</item>
+        <item name="backgroundBottomColor">@color/white</item>
+        <item name="bottomCircleColor">@color/white</item>
+        <item name="bottomIconColor">@color/theme_light_green</item>
+        <item name="bottomSelectedIconColor">@color/theme_light_green</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_light_green_background</item>
+        <item name="bottomRippleColor">@color/white</item>
+        <item name="android:textColorSecondary">#636363</item>
+        <item name="android:windowBackground">@color/theme_light_green_background</item>
+        <item name="toolbarIconsColor">@color/black</item>
+        <item name="firstColor">@color/black</item>
+        <item name="AddPlaylistIconColor">@color/theme_light_green</item>
+        <item name="bottomSheetTextHeaderColor">@color/black</item>
+        <item name="bottomSheetTextColor">@color/theme_light_green</item>
+        <item name="bottomSheetIconsColor">@color/theme_light_green</item>
+        <item name="folderColor">#FFEDED</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="menuIconsColor">@color/theme_light_green</item>
+        <item name="myToolbarStyle">@style/MyToolbarStyle</item>
+    </style>
+
+
+    <style name="theme_yellow" parent="Theme.LitePlayer">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/theme_yellow</item>
+        <item name="IconsColor">@color/theme_yellow</item>
+        <item name="toolbarColor">@color/theme_yellow</item>
+        <item name="backgroundBottomColor">@color/white</item>
+        <item name="bottomCircleColor">@color/white</item>
+        <item name="bottomIconColor">@color/theme_yellow</item>
+        <item name="bottomSelectedIconColor">@color/theme_yellow</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_yellow_background</item>
+        <item name="bottomRippleColor">@color/white</item>
+        <item name="android:textColorSecondary">#636363</item>
+        <item name="android:windowBackground">@color/theme_yellow_background</item>
+        <item name="toolbarIconsColor">@color/black</item>
+        <item name="firstColor">@color/black</item>
+        <item name="AddPlaylistIconColor">@color/theme_yellow</item>
+        <item name="bottomSheetTextHeaderColor">@color/black</item>
+        <item name="bottomSheetTextColor">@color/theme_yellow</item>
+        <item name="bottomSheetIconsColor">@color/theme_yellow</item>
+        <item name="folderColor">#FFEDED</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="menuIconsColor">@color/theme_yellow</item>
+        <item name="myToolbarStyle">@style/MyToolbarStyle</item>
+    </style>
+
+
+    <style name="theme_orange" parent="Theme.LitePlayer">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/theme_orange</item>
+        <item name="IconsColor">@color/theme_orange</item>
+        <item name="toolbarColor">@color/theme_orange</item>
+        <item name="backgroundBottomColor">@color/white</item>
+        <item name="bottomCircleColor">@color/white</item>
+        <item name="bottomIconColor">@color/theme_orange</item>
+        <item name="bottomSelectedIconColor">@color/theme_orange</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_orange_background</item>
+        <item name="bottomRippleColor">@color/white</item>
+        <item name="android:textColorSecondary">#636363</item>
+        <item name="android:windowBackground">@color/theme_orange_background</item>
+        <item name="toolbarIconsColor">@color/black</item>
+        <item name="firstColor">@color/black</item>
+        <item name="AddPlaylistIconColor">@color/theme_orange</item>
+        <item name="bottomSheetTextHeaderColor">@color/black</item>
+        <item name="bottomSheetTextColor">@color/theme_orange</item>
+        <item name="bottomSheetIconsColor">@color/theme_orange</item>
+        <item name="folderColor">#FFEDED</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="menuIconsColor">@color/theme_orange</item>
+        <item name="myToolbarStyle">@style/MyToolbarStyle</item>
+    </style>
+
+    <style name="theme_brown" parent="Theme.LitePlayer">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/theme_brown</item>
+        <item name="IconsColor">@color/theme_brown</item>
+        <item name="toolbarColor">@color/theme_brown</item>
+        <item name="backgroundBottomColor">@color/white</item>
+        <item name="bottomCircleColor">@color/white</item>
+        <item name="bottomIconColor">@color/theme_brown</item>
+        <item name="bottomSelectedIconColor">@color/theme_brown</item>
+        <item name="bottomSheetBackgroundColor">@color/theme_brown_background</item>
+        <item name="bottomRippleColor">@color/white</item>
+        <item name="android:textColorSecondary">#636363</item>
+        <item name="android:windowBackground">@color/theme_brown_background</item>
+        <item name="toolbarIconsColor">@color/black</item>
+        <item name="firstColor">@color/black</item>
+        <item name="AddPlaylistIconColor">@color/theme_brown</item>
+        <item name="bottomSheetTextHeaderColor">@color/black</item>
+        <item name="bottomSheetTextColor">@color/theme_brown</item>
+        <item name="bottomSheetIconsColor">@color/theme_brown</item>
+        <item name="folderColor">#FFEDED</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="menuIconsColor">@color/theme_brown</item>
+        <item name="myToolbarStyle">@style/MyToolbarStyle</item>
+    </style>
+
+
+    <style name="theme_grey" parent="Theme.LitePlayer">
+        <item name="android:statusBarColor" tools:targetApi="l">@color/gray</item>
+        <item name="IconsColor">@color/gray</item>
+        <item name="toolbarColor">@color/gray</item>
+        <item name="backgroundBottomColor">@color/white</item>
+        <item name="bottomCircleColor">@color/white</item>
+        <item name="bottomIconColor">@color/gray</item>
+        <item name="bottomSelectedIconColor">@color/white</item>
+        <item name="bottomSheetBackgroundColor">@color/white</item>
+        <item name="bottomRippleColor">@color/white</item>
+        <item name="android:textColorSecondary">#636363</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="toolbarIconsColor">@color/black</item>
+        <item name="firstColor">@color/black</item>
+        <item name="AddPlaylistIconColor">@color/gray</item>
+        <item name="bottomSheetTextHeaderColor">@color/black</item>
+        <item name="bottomSheetTextColor">@color/gray</item>
+        <item name="bottomSheetIconsColor">@color/gray</item>
+        <item name="folderColor">#FFEDED</item>
+        <item name="android:editTextColor">@color/black</item>
+        <item name="android:textColorPrimary">@color/black</item>
+        <item name="menuIconsColor">@color/gray</item>
+        <item name="myToolbarStyle">@style/MyToolbarStyle</item>
+    </style>
+
+
+    <style name="MyToolbarStyle" parent="Theme.LitePlayer">
+        <item name="android:textColorSecondary">@color/black</item>
+        <item name="popupTheme">@style/ToolbarPopupTheme</item>
+        <item name="android:background">?attr/toolbarColor</item>
+    </style>
+
+    <style name="AlertDialogCustom" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColor">#000000</item>
+        <item name="android:textColorPrimary">#000000</item>
+    </style>
+
+
+</resources>

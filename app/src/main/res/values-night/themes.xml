@@ -1,0 +1,41 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.LitePlayer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+            <item name="colorOnPrimary">@color/white</item>
+            <item name="colorPrimary">@color/black</item>
+            <item name="colorPrimaryVariant">#272727</item>
+            <!--        <item name="colorAccent">@color/black</item>-->
+            <!-- Secondary brand color. -->
+            <item name="colorSecondary">@color/lightBlue</item>
+            <item name="colorSecondaryVariant">#028E9F</item>
+            <item name="colorOnSecondary">@color/black</item>
+            <item name="android:textColorSecondary">@color/gray</item>
+            <!-- Status bar color. -->
+            <item name="android:statusBarColor" tools:targetApi="l">@color/black</item>
+            <item name="android:editTextColor">#808080</item>
+            <item name="android:textColorHint">@android:color/white</item>
+            <item name="android:windowBackground">@color/black_background</item>
+            <item name="IconsColor">@color/white</item>
+            <item name="toolbarColor">@color/black</item>
+            <item name="backgroundBottomColor">@color/white</item>
+            <item name="bottomCircleColor">@color/white</item>
+            <item name="bottomIconColor">@color/black</item>
+            <item name="bottomSelectedIconColor">@color/black</item>
+            <item name="bottomSheetBackgroundColor">@color/gray</item>
+            <item name="bottomRippleColor">@color/gray</item>
+            <item name="toolbarIconsColor">@color/white</item>
+            <item name="firstColor">@color/white</item>
+            <item name="AddPlaylistIconColor">@color/gray</item>
+            <item name="bottomSheetTextHeaderColor">@color/black</item>
+            <item name="bottomSheetTextColor">@color/black</item>
+            <item name="bottomSheetIconsColor">@color/black</item>
+            <item name="folderColor">@color/lightBlue</item>
+            <item name="android:textColorPrimary">@color/white</item>
+            <item name="menuIconsColor">@color/black</item>
+            <item name="myToolbarStyle">@style/toolbarStyle</item>
+        <item name="secondColor">@color/gray</item>
+        <item name="colorOnToolbar">@color/white</item>
+
+        </style>
+</resources>
